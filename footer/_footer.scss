@@ -1,0 +1,17 @@
+.footer_style{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:1rem;
+    font-family: 'Contrail One', cursive;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+
+#map{
+    height: 400px;
+    width: 70%;
+    border-radius: 30px;
+}

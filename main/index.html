@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO list</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./main.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <img class="tittle" src="../assets/LOGOTIPO_UPGRADE-01.png" alt="">
+        <div class="search">
+            <input type="text" class="inp" placeholder="Add task...">
+            <button class="btn-add">+</button>
+            <button class="ai"type="submit"><a href="http://localhost:3000/">Diviertete con esta IA!</a></button>
+        </div>
+
+    </div>
+    <div class="galery">
+        <div class="delet">
+            <div class="delet" id="trash">
+            <h3> Eliminar Tarea </h3>
+            </div>
+        </div>
+
+
+        <div class="new">
+            <h3>Por Clasificar</h3>
+            <p class="p" id="Element1" draggable="true">HTML</p>
+            <p class="p" id="Element2" draggable="true">CSS</p>
+            <p class="p" id="Element3" draggable="true">SCSS</p>
+            <p class="p" id="Element4" draggable="true">JAVASCRIPT</p>
+            <p class="p" id="Element5" draggable="true">NODEJS</p>
+            <p class="p" id="Element6" draggable="true">ANGULAR</p>
+            <p class="p" id="Element7" draggable="true">MONGODB</p>
+            <p class="p" id="Element8" draggable="true">REACT</p>
+            <p class="p" id="Element9" draggable="true">PROYECTO</p>
+        </div>
+        <div class="sector" id="div1">
+            <h3>No tiene Prioridad</h3>
+        </div>
+        <div class="sector" id="div2">
+            <h3>Con Prioridad</h3>
+        </div>
+        <div class="sector" id="div3">
+            <h3>Prioridad Absoluta</h3>
+        </div>
+
+    </div>
+    <footer>
+        <div class="footer_style">
+            <h3>¿Necesitas ir a la escuela? !Consulta este mapa!</h3>
+            <div id="map">
+            </div>
+        </div>
+    </footer>
+</body>
+<script
+    src="https://maps.googleapis.com/maps/api/js?key=${process.env.API_KEY}&callback=initMap&v=weekly"
+    async></script>
+</html>

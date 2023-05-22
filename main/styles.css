@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Charmonman:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aladin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Contrail+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F1F1F1;
+}
+
+.tittle {
+  width: 70vw;
+}
+
+.inp {
+  width: 30vw;
+  text-align: center;
+  height: 2vw;
+  border-radius: 25px;
+  border: #FF4C45 8px inset;
+}
+
+.inp:focus {
+  border: #F1F1F1 8px outset;
+}
+
+.ai {
+  padding: 0.6rem 1rem;
+  border-radius: 4px;
+  border: none;
+  background-color: #1E9055;
+  color: #fff;
+  font-size: 1.5rem;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset, 0 1px 3px rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(#fff 10%, #FF4C45 100%);
+  font-family: "Big Shoulders Inline Text", cursive;
+}
+
+.ai:hover {
+  background-image: linear-gradient(#fff 10%, #1E9055 100%);
+}
+
+.btn-add {
+  padding: 0.6rem 1rem;
+  border: none;
+  margin: 1rem;
+  border-radius: 30px;
+  background-color: #1E9055;
+  color: #fff;
+  font-size: 1.5rem;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset, 0 1px 3px rgba(0, 0, 0, 0.2);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #FF4C45), to(#e76a00));
+}
+
+#div1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../assets/ListCard.png);
+  width: 20vw;
+  height: 30vw;
+  border: grey 8px ridge;
+  border-radius: 20px;
+  color: #188249;
+  font-family: "Contrail One", cursive;
+  font-size: x-large;
+}
+
+#div2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../assets/ListCard2.png);
+  width: 20vw;
+  height: 30vw;
+  border: grey 8px ridge;
+  color: white;
+  border-radius: 20px;
+  font-family: "Contrail One", cursive;
+  color: orange;
+  font-size: x-large;
+}
+
+#div3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../assets/listCard3.png);
+  width: 20vw;
+  height: 30vw;
+  color: white;
+  border: grey 8px ridge;
+  border-radius: 20px;
+  font-family: "Contrail One", cursive;
+  color: orangered;
+  font-size: x-large;
+}
+
+p {
+  width: 15vw;
+  height: 2vw;
+  background-color: whitesmoke;
+  font-size: medium;
+  font-family: "Aladin", cursive;
+  font-size: x-large;
+  color: #188249;
+  border: grey 5px ridge;
+  text-align: center;
+  border-radius: 20px;
+  background-image: url(../assets/back.png);
+  background-size: cover;
+}
+
+.galery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 1rem;
+}
+
+#trash {
+  width: 10vw;
+  height: 20vw;
+  background-image: url(../assets/Papelera.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.delet {
+  margin-top: 1rem;
+  font-family: "Contrail One", cursive;
+  text-align: center;
+}
+
+.new {
+  font-family: "Contrail One", cursive;
+  text-align: center;
+}
+
+.footer_style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+  font-family: "Contrail One", cursive;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+#map {
+  height: 400px;
+  width: 70%;
+  border-radius: 30px;
+}/*# sourceMappingURL=styles.css.map */
